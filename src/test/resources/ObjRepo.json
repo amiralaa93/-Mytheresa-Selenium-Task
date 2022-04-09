@@ -1,0 +1,16 @@
+{
+  "login": {
+    "myAccount": "id;myaccount",
+    "emailTextBox": "xpath;//div[@id='qa-login-email']//input[@id='email']",
+    "passwordTextBox": "xpath;//div[@id='qa-login-password']//input[@id='pass']",
+    "loginButton": "xpath;//span[text()='Login']",
+    "welcomeMsg": "xpath;//p[@class='hello hs1']"
+  },
+  "prPage": {
+    "prList": "xpath;//div[@class='js-navigation-container js-active-navigation-container']/*",
+    "prDate": "tag;relative-time",
+    "nextButton": "xpath;//a[normalize-space()='Next']",
+    "pullRequestTab": "xpath;//span[@data-content='Pull requests']",
+    "allPullRequestsCount": "id;pull-requests-repo-tab-count"
+  }
+}

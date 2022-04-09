@@ -1,0 +1,5 @@
+
+*.log
+target/
+.idea/vcs.xml
+prFile.csv
